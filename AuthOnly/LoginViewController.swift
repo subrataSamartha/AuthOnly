@@ -22,13 +22,19 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         self.setupUI()
         
-        // Do any additional setup after loading the view.
+        self.signInButton.addTarget(self, action: #selector(didTapSignIn), for: .touchUpInside)
+        self.newUserButton.addTarget(self, action: #selector(didTapNewUser), for: .touchUpInside)
+        self.forgotPasswordButton.addTarget(self, action: #selector(didTapForgotPassword), for: .touchUpInside)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isHidden = true
+        
+        self.didTapNewUser()
     }
+    
+    
     
     private func setupUI() {
         self.view.backgroundColor = .systemBackground
@@ -82,5 +88,22 @@ class LoginViewController: UIViewController {
             
         ])
     }
+    
+    @objc private func didTapSignIn() {
+        let vc = HomeViewController()
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+    }
+    
+    @objc private func didTapNewUser() {
+        let vc = RegisterViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func didTapForgotPassword() {
+        let vc = ForgotPasswordViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     
 }
