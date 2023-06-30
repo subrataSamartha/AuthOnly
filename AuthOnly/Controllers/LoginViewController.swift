@@ -32,6 +32,7 @@ class LoginViewController: UIViewController {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isHidden = true
         
+        
 //        self.didTapNewUser()
     }
     
@@ -98,7 +99,9 @@ class LoginViewController: UIViewController {
     @objc private func didTapSignIn() {
         let vc = HomeViewController()
         vc.modalPresentationStyle = .fullScreen
-        self.present(vc, animated: true, completion: nil)
+        let nav = UINavigationController(rootViewController: vc)
+        nav.modalPresentationStyle = .fullScreen
+        self.present(nav, animated: true, completion: nil)
     }
     
     @objc private func didTapNewUser() {
