@@ -18,6 +18,7 @@
 		9CD4230D2A4B271E00A1D507 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4230C2A4B271E00A1D507 /* AuthHeaderView.swift */; };
 		9CD4230F2A4B34FF00A1D507 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD4230E2A4B34FF00A1D507 /* CustomTextField.swift */; };
 		9CD423112A4B3D1C00A1D507 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD423102A4B3D1C00A1D507 /* CustomButton.swift */; };
+		9CD742162A4D75E2000568CE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD742152A4D75E2000568CE /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9CD4230C2A4B271E00A1D507 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 		9CD4230E2A4B34FF00A1D507 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		9CD423102A4B3D1C00A1D507 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		9CD742152A4D75E2000568CE /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				9CD423052A4B25C200A1D507 /* LoginViewController.swift */,
 				9CD423072A4B25CC00A1D507 /* RegisterViewController.swift */,
 				9CD423092A4B25DB00A1D507 /* HomeViewController.swift */,
+				9CD742152A4D75E2000568CE /* WebViewController.swift */,
 			);
 			path = AuthOnly;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				9CD423042A4B25B200A1D507 /* ForgotPasswordViewController.swift in Sources */,
 				9CD422EF2A4AF74E00A1D507 /* AppDelegate.swift in Sources */,
 				9CD423112A4B3D1C00A1D507 /* CustomButton.swift in Sources */,
+				9CD742162A4D75E2000568CE /* WebViewController.swift in Sources */,
 				9CD423082A4B25CC00A1D507 /* RegisterViewController.swift in Sources */,
 				9CD423062A4B25C200A1D507 /* LoginViewController.swift in Sources */,
 				9CD4230F2A4B34FF00A1D507 /* CustomTextField.swift in Sources */,

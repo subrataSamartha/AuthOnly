@@ -8,10 +8,16 @@
 import UIKit
 
 class ForgotPasswordViewController: UIViewController {
+    
 
+    
+    
+    // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .systemRed
     }
+
+    
 
 }
