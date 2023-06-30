@@ -35,6 +35,11 @@ class LoginViewController: UIViewController {
 //        self.didTapNewUser()
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.navigationController?.navigationBar.isHidden = false
+    }
+    
     
     
     private func setupUI() {
